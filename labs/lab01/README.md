@@ -1,0 +1,1 @@
+Set up Azure, for some reason the mysql didn't work so I had to make a new project. The rest of the project still worked, which is good.

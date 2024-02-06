@@ -21,11 +21,13 @@ class Footer extends HTMLElement {
     }
     connectedCallback() {
         this.innerHTML = `
-            <footer id="Footer">
-                <a href="./projects.html">Projects</a>
-                <a href="./labs/lab02/chenw23-WilliamsChen-resume.html">Resume</a>
-                <p class="wee"></p>
-            </footer>
+            <Footer class="Footer">
+                <p>Contacts: </p>
+                <ul>
+                    <li><a href="https://github.com/williamschen23"><img src="./resources/github-mark-white.png" alt="Home Button"></a><li>
+                    <li><a href="mailto:chenwill2005@gmail.com"><img src="./resources/gmail_icon.png" alt="Home Button"></a><li>
+                </ul>
+            </Footer>
         `
     }
 }

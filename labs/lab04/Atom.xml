@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>Williams Chen's Technology Feed</title>
+	<link href="http://chenw23rpi.eastus.cloudapp.azure.com/iit/labs/lab04/index.html" rel="self"/>
+	<id>tag:chenw23rpi.eastus.cloudapp.azure.com,2024-02-08:/iit/labs/lab04/index.html</id>
+	<updated>2024-02-08T22:35:31+00:00</updated>
+	<author>
+		<name>Williams Chen</name>
+		<email>chenwill2005@gmail.com</email>
+	</author>
+
+	<entry>
+		<title>Google Retires A.I. Chatbot Bard and Releases Gemini, a Powerful New App</title>
+		<link href="https://www.nytimes.com/2024/02/08/technology/google-gemini-ai-app.html"/>
+		<id>tag:www.nytimes.com,2024-02-08:/2024/02/08/technology/google-gemini-ai-app.html</id>
+		<summary type="html">As it races to compete with OpenAI's ChatGPT, Google has retired its Bard chatbot and released a more powerful app.</summary>
+		<updated>2024-02-08T18:00:29-05:00</updated>
+	</entry>
+
+	<entry>
+		<title>Researchers Accused Google And “60 Minutes” Of Spreading AI “Disinformation”</title>
+		<summary type="html"><![CDATA[ <h1>AI is not “some mysterious, magical, autonomous being,” one critic said.</h1><p><img src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/19/19/tmp/b99ef342ce8f/tmp-name-3-961-1681931398-5_dblbig.jpg" /></p><hr /><p><a href="https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged">View Entire Post &rsaquo;</a></p> ]]></summary>
+		<link href="https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged"></link>
+		<updated>2023-04-19T16:48:17-04:00</updated>
+		<id>tag:www.buzzfeednews.com,2023-04-19:/article/pranavdixit/google-60-minutes-ai-claims-challenged</id>
+	</entry>
+
+	<entry>
+		<title>Best iPhone Deals 2024: Take Up to $1,000 Off a New iPhone 15, 14 or SE - CNET</title>
+		<link href="https://www.cnet.com/deals/best-iphone-deals/#ftag=CAD4aa2096"/>
+		<id>tag:www.cnet.com,2024-02-08:/deals/best-iphone-deals/#ftag=CAD4aa2096</id>
+		<updated>2024-02-08T00:30:05+00:00</updated>
+		<summary type="html">With the latest iPhone 15 series already out and about in the world, you can save on upgrades or snag an earlier model phone for a lot less.</summary>
+	</entry>
+
+	<entry>
+		<title>How plagiarism-detection programs became an unlikely political weapon</title>
+		<updated>2024-01-21T11:00:11+00:00</updated>
+		<link href="https://www.latimes.com/science/story/2024-01-21/how-plagiarism-detection-software-for-academics-became-an-unlikely-political-weapon"/>
+		<id>tag:www.latimes.com,2024-01-21:/science/story/2024-01-21/how-plagiarism-detection-software-for-academics-became-an-unlikely-political-weapon</id>
+		<summary type="html"><![CDATA[ <p>In academia particularly, a charge of plagiarism can be devastating. Software makes it easier than ever to spot attribution errors in published works, which can then be weaponized for political gain.</p> ]]></summary>
+	</entry>
+	
+	<entry>
+		<link href="https://www.foxnews.com/tech/how-sneaky-scammers-are-using-ai-to-get-you-to-buy-fake-super-bowl-tickets"/>
+		<id>tag:www.foxnews.com,2024-02-08:/tech/how-sneaky-scammers-are-using-ai-to-get-you-to-buy-fake-super-bowl-tickets</id>
+		<title>How sneaky scammers are using AI to get you to buy fake Super Bowl tickets</title>
+		<summary type="html">Beware of counterfeits if you&apos;re shopping for Super Bowl tickets. Scammers are looking for victims hoping to score last-minute tickets.</summary>
+		<updated>2024-02-08T06:00:44-05:00</updated>
+	</entry>
+ 
+</feed>

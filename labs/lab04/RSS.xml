@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Williams Chen's Technology Feed</title>
+        <link>http://chenw23rpi.eastus.cloudapp.azure.com/iit/labs/lab04/index.html</link>
+        <description>Some of the latest tech news, along with personal accomplishments</description>
+        <item>
+            <title>Google Retires A.I. Chatbot Bard and Releases Gemini, a Powerful New App</title>
+            <link>https://www.nytimes.com/2024/02/08/technology/google-gemini-ai-app.html</link>
+            <guid isPermaLink="true">https://www.nytimes.com/2024/02/08/technology/google-gemini-ai-app.html</guid>
+            <description>As it races to compete with OpenAI's ChatGPT, Google has retired its Bard chatbot and released a more powerful app.</description>
+            <pubDate>Thu, 08 Feb 2024 13:00:29 +0000</pubDate>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/des">ChatGPT</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">DeepMind Technologies Ltd</category>
+            <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">OpenAI Labs</category>
+        </item>
+        <item>
+            <title>Researchers Accused Google And “60 Minutes” Of Spreading AI “Disinformation”</title>
+            <description>
+            <![CDATA[ <h1>AI is not “some mysterious, magical, autonomous being,” one critic said.</h1><p><img src="https://img.buzzfeed.com/buzzfeed-static/static/2023-04/19/19/tmp/b99ef342ce8f/tmp-name-3-961-1681931398-5_dblbig.jpg" /></p><hr /><p><a href="https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged">View Entire Post &rsaquo;</a></p> ]]>
+            </description>
+            <link>https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged</link>
+            <pubDate>Wed, 19 Apr 2023 16:48:17 -0400</pubDate>
+            <guid isPermaLink="false">https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged</guid>
+            <category>Tech</category>
+        </item>
+        <item>
+            <title>Best iPhone Deals 2024: Take Up to $1,000 Off a New iPhone 15, 14 or SE - CNET</title>
+            <link>https://www.cnet.com/deals/best-iphone-deals/#ftag=CAD4aa2096</link>
+            <guid isPermaLink="false">062a7e73-2f3d-4f0d-a45c-0adad343b92d</guid>
+            <pubDate>Thu, 08 Feb 2024 00:30:05 +0000</pubDate>
+            <description>With the latest iPhone 15 series already out and about in the world, you can save on upgrades or snag an earlier model phone for a lot less.</description>
+        </item>
+        <item>
+            <title>How plagiarism-detection programs became an unlikely political weapon</title>
+            <pubDate>Sun, 21 Jan 2024 11:00:11 GMT</pubDate>
+            <link>https://www.latimes.com/science/story/2024-01-21/how-plagiarism-detection-software-for-academics-became-an-unlikely-political-weapon</link>
+            <guid>https://www.latimes.com/science/story/2024-01-21/how-plagiarism-detection-software-for-academics-became-an-unlikely-political-weapon</guid>
+            <description>
+            <![CDATA[ <p>In academia particularly, a charge of plagiarism can be devastating. Software makes it easier than ever to spot attribution errors in published works, which can then be weaponized for political gain.</p> ]]>
+            </description>
+        </item>
+        <item>
+            <link>https://www.foxnews.com/tech/how-sneaky-scammers-are-using-ai-to-get-you-to-buy-fake-super-bowl-tickets</link>
+            <guid isPermaLink="true">https://www.foxnews.com/tech/how-sneaky-scammers-are-using-ai-to-get-you-to-buy-fake-super-bowl-tickets</guid>
+            <title>How sneaky scammers are using AI to get you to buy fake Super Bowl tickets</title>
+            <description>Beware of counterfeits if you&apos;re shopping for Super Bowl tickets. Scammers are looking for victims hoping to score last-minute tickets.</description>
+            <category domain="foxnews.com/metadata/dc.identifier">e92dff34-968d-50c9-a127-f2edf6404738</category>
+            <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+            <category domain="foxnews.com/metadata/dc.source">Fox News</category>
+            <category domain="foxnews.com/taxonomy">fox-news/tech</category>
+            <category domain="foxnews.com/taxonomy">fox-news/tech/topics/cybercrime</category>
+            <category domain="foxnews.com/taxonomy">fox-news/tech/artificial-intelligence</category>
+            <category domain="foxnews.com/taxonomy">fox-news/news-events/super-bowl</category>
+            <category domain="foxnews.com/taxonomy">fox-news/entertainment/genres/crime</category>
+            <category domain="foxnews.com/taxonomy">fox-news/newsedge/sports</category>
+            <category domain="foxnews.com/taxonomy">fox-news/sports/nfl</category>
+            <category domain="foxnews.com/section-path">fox-news/tech</category>
+            <category domain="foxnews.com/content-type">article</category>
+            <pubDate>Thu, 08 Feb 2024 06:00:44 -0500</pubDate>
+        </item>
+    </channel>
+</rss>

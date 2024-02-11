@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Lab 2</title>
+        <title>Lab</title>
         <link rel="stylesheet" href="../../resources/template.css">
         <link rel="stylesheet" href="../../resources/style.css">
     </head>
@@ -14,21 +14,13 @@
 
             <div class="body-section">
                 <div>
-                    <p>Lab 2 was making a personal resume, so see it below!</p>
-
-                <ul>
-                    <li><a href="./chenw23-WilliamsChen-resume.html">Resume</a></li>
-                    <li><a href="./README.md">Here are some comments made</a></li>
-                </ul>
+                
                 </div>
-
             </div>
-            
+
             <main-footer></main-footer>
 
-
         </div>
-
 
         <script type="module" src="../../resources/template.js"></script>
     </body>

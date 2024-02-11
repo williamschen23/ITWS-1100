@@ -1,9 +1,7 @@
 .Header {
-    display: flex;
-    justify-content: left;
     border-bottom: 2px black solid;
-    padding: 1em;
-    margin: auto;
+    padding: 1em 0 1em 0;
+    width: 100%;
     background-color: #BCD2EE;
 }
 
@@ -15,11 +13,24 @@
 
 .Header nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header nav > p {
+    text-align: center;
+}
+
+.Header nav > ul {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.Header nav > a {
+    margin-left: 20px;
 }
 
 .Header img {
-    display:flex; 
-    justify-content: start;
     width: 20px;
     height: 20px;
 }
@@ -27,55 +38,43 @@
 .Header li a {
     text-decoration: none;
     color: black;
-    display: flex;
-    justify-content: end;
 }
 
 .Header ul {
     list-style: none;
-    display: flex;
-}
-
-.Header li {
-    display:flex;
-}
-
-.Header p {
-    display:flex;
-    justify-content: center;
 }
 
 .Footer {
-    position: fixed;
-    display: flex;
-    justify-content: left;
-    border-bottom: 2px black solid;
-    padding: 1em;
-    bottom:0;
-    background-color: #D74E09;
     width: 100%;
+    border-top: 2px black solid;
+    background-color: #D74E09;
+    padding: 1em 0 1em 0;
 }
-
 
 .Footer * {
     width: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+.Footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Footer p {
     margin-left: 10px;
-    display: flex;
 }
 
 .Footer ul {
     list-style-type: none;
+    text-align: right;
 }
 
 .Footer li {
-    justify-content: left;
-    display: inline;
     margin-right: 10px;
+    display: inline;
 }
 
 .Footer img {

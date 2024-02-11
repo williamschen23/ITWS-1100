@@ -1,5 +1,6 @@
-html {
-  width: 100%
+html, body {
+  width: 100%;
+  height: 100%;
 }
 
 * {
@@ -8,12 +9,16 @@ html {
 }
 
 .main-container {
-  width:100%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .body-section {
-  justify-content: center;
+  flex-grow: 1;
   display: flex;
+  justify-content: center;
 }
 
 .body-section p {
@@ -25,13 +30,13 @@ html {
 }
 
 .body-section li {
-  margin: 5px 20px;
+  margin: 10px 20px;
   padding: 1em;
   border-radius: 10px;
   border: 3px solid black;
-  justify-content: center;
   background-clip: border-box;
   background-color: #DCDCDC;
+
 }
 
 
@@ -42,13 +47,11 @@ html {
 .body-section a {
   text-decoration: none;
   color: black;
-  text-align: center;
   display: block;
-
 }
 
 .body-section img {
-  width:35%;
-  height:35%;
+  width: 300px;
+  height: 250px;
   margin: 20px 20px 0 20px;
-}
+} 

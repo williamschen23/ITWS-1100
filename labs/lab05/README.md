@@ -1,0 +1,3 @@
+This lab I don't think I used much internet resources other than the mozilla developer docs. It was fun to look back at docs because I used to look at other docs for fun because I was developing something, and having all possible options that could help me understand what I am doing is a vauable part of how much I understand now.
+
+http://chenw23rpi.eastus.cloudapp.azure.com/iit/labs/lab05/lab5.html

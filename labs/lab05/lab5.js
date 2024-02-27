@@ -8,14 +8,17 @@ function validate() {
    for (let i = 0; i < inputs.length-1 && i < fields.length-1; i++) {
       if(inputs[i].value == ''){
          let fieldName = fields[i].textContent;
+         inputs[i].focus();
          alert(`You must enter ${fieldName.substring(0, fieldName.length-1).toLowerCase()}`);
          return false;
       }
    }
 
    // checking the comment text field
-   if((document.getElementById('comments').value == 'Please enter your comments')){
+   const textBox = document.getElementById('comments').value;
+   if(textBox == 'Please enter your comments'){
       alert(`You must enter comments`);
+      textBox.focus()
       return false;
    }
 

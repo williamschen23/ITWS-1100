@@ -30,17 +30,20 @@ function validate() {
 // constructs firstname lastname is nickname
 function constructName(){
    // grab all values 
-   let firstName = document.getElementById('firstName').value;
-   let lastName = document.getElementById('lastName').value;
-   let pseudonym = document.getElementById('pseudonym').value;
+   let firstName = document.getElementById('firstName');
+   let lastName = document.getElementById('lastName');
+   let pseudonym = document.getElementById('pseudonym');
 
    // conditional checking
-   if(firstName == ''){
+   if(firstName.value == ''){
       alert("You need to fill out a first name");
-   } else if(lastName == ''){
+      firstName.focus();
+   } else if(lastName.value == ''){
       alert("You need to fill out a last name");
-   } else if(pseudonym == '') {
+      lastName.focus();
+   } else if(pseudonym.value == '') {
       alert("You need to fill out a nickname");
+      pseudonym.focus();
    } else {
       alert(`${firstName} ${lastName} is ${pseudonym}`);
    }  

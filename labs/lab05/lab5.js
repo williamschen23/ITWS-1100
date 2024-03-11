@@ -45,7 +45,7 @@ function constructName(){
       alert("You need to fill out a nickname");
       pseudonym.focus();
    } else {
-      alert(`${firstName} ${lastName} is ${pseudonym}`);
+      alert(`${firstName.value} ${lastName.value} is ${pseudonym.value}`);
    }  
 }
 

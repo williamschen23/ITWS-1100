@@ -47,9 +47,9 @@ $(document).ready(function () {
    })
 
 
-   // toggles the text over 4 seconds
+   // toggles the text over 4/10 seconds
    $('#toggleText').click(function(){
-      $('#showHideBlock p').fadeToggle(4000);
+      $('#showHideBlock p').fadeToggle(400);
    })
 
 });

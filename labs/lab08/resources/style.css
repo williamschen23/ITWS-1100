@@ -1,0 +1,43 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    flex-grow: 1;
+}
+
+#accordion {
+    margin: 10px 20px;
+}
+
+.body li {
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-clip: border-box;
+    background-color: #DCDCDC;
+}
+  
+.body ul {
+    list-style-type: none;
+}
+  
+.body a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.body {
+    overflow: auto;
+}

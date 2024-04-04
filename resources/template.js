@@ -52,17 +52,16 @@ class Footer extends HTMLElement {
 
         // configuring what file we are in and what the root directory
         // of the document is.
-        let fileStructure = "Home";
         let rootDir = currDir;
         if(path.includes("labs")) {
             if(path.includes("projects")){
                 rootDir = currDir + "/..";
-                fileStructure = "Home → Projects"
             } else {
                 rootDir = currDir + "/../..";
-                fileStructure = "Home → Projects → " + currDir.substring(currDir.lastIndexOf("/")+1);
             }
         }
+
+        console.log(rootDir)
 
         this.innerHTML = `
             <footer class="Footer">

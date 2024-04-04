@@ -18,6 +18,9 @@ html, body {
 #accordion {
     margin: 10px 20px;
 }
+.accordion {
+    margin: 10px 20px;
+}
 
 .body li {
     margin: 10px 20px;
@@ -40,4 +43,13 @@ html, body {
 
 .body {
     overflow: auto;
+}
+
+.accordion a:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.accordion a:visited {
+    color: purple;
 }

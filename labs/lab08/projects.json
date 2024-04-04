@@ -61,6 +61,13 @@
                 "You are viewing the resulting page now!": "../projects.html",
                 "+ bunch of other files that I don't want to include": "../projects.html"
             }
+        }, {
+            "name": "lab09",
+            "description": "Lab 9 - Ajax and XML",
+            "structure": {
+                "JS": "lab9.js",
+                "View Page": "lab9.html"
+            }
         }
     ]
 }

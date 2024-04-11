@@ -68,6 +68,19 @@
                 "JS": "lab9.js",
                 "View Page": "lab9.html"
             }
+        }, {
+            "name": "lab10",
+            "description": "Lab 10 - PHP and SQL",
+            "structure": {
+                "Main Page": "index.php",
+                "Movies Page": "movies.php",
+                "Actors CSV": "actors.csv",
+                "SQL for Movie": "iit-lab10movies.sql",
+                "SQL for Actors": "iit-lab10actors.sql",
+                "SQL for PHPMyAdmin": "iit.sql",
+                "Some more PHP files": "includes/",
+                "Resources": "resources/"
+            }
         }
     ]
 }

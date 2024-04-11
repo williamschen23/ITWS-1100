@@ -6,8 +6,10 @@ $(function(){
             let output = '';
             $.each(response.labs, function(){
                 let index = this.name.indexOf('0');
-                let labNumber = 'L' + this.name.substring(1, index) 
-                            + " " + this.name.substring(index+1);
+                let one = this.name.indexOf('1')
+                let labNumber = index == this.name.length-1 ? 
+                'L' + this.name.substring(1, one) + " " + this.name.substring(one) :
+                'L' + this.name.substring(1, index) + " " + this.name.substring(index+1);
                 let folderName = this.name;
 
                 let structureMap = "";

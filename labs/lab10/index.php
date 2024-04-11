@@ -93,8 +93,8 @@ if ($havePost) {
          $dobForDb = trim($_POST["dob"]);
          $movie = trim($_POST["movie"]);
 
+         // Check if the movie corresponds to a movie, add the associative movie if exist (one movie only)
          $query = ("select * from movies where title='" . $movie . "'");
-         echo $query;
          $result = $db->query($query);
 
          $movieForDb = NULL;

@@ -94,7 +94,7 @@ if ($havePost) {
 
          // Setup a prepared statement. Alternately, we could write an insert statement - but
          // *only* if we escape our data using addslashes() or (better) mysqli_real_escape_string().
-         $insQuery = "insert into actors (`last_name`,`first_names`,`dob`) values(?,?,?)";
+         $insQuery = "insert into actors (`lastName`,`firstName`,`dob`) values(?,?,?)";
          $statement = $db->prepare($insQuery);
          // bind our variables to the question marks
          $statement->bind_param("sss", $lastNameForDb, $firstNamesForDb, $dobForDb);
@@ -138,11 +138,11 @@ if ($havePost) {
 </form>
 
 <h3>Actors</h3>
-<table id="actorTable">
+<table class="displayTable">
    <?php
    if ($dbOk) {
 
-      $query = 'select * from actors order by last_name';
+      $query = 'select * from actors order by lastName';
       $result = $db->query($query);
       $numRecords = $result->num_rows;
 
@@ -150,12 +150,12 @@ if ($havePost) {
       for ($i = 0; $i < $numRecords; $i++) {
          $record = $result->fetch_assoc();
          if ($i % 2 == 0) {
-            echo "\n" . '<tr id="actor-' . $record['actorid'] . '"><td>';
+            echo "\n" . '<tr id="actor-' . $record['actorID'] . '"><td>';
          } else {
-            echo "\n" . '<tr class="odd" id="actor-' . $record['actorid'] . '"><td>';
+            echo "\n" . '<tr class="odd" id="actor-' . $record['actorID'] . '"><td>';
          }
-         echo htmlspecialchars($record['last_name']) . ', ';
-         echo htmlspecialchars($record['first_names']);
+         echo htmlspecialchars($record['lastName']) . ', ';
+         echo htmlspecialchars($record['firstName']);
          echo '</td><td>';
          echo htmlspecialchars($record['dob']);
          echo '</td><td>';

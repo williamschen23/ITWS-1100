@@ -126,19 +126,19 @@ th {
 td {
   padding-right: 1em;
 }
-#actorTable {
+.displayTable {
   width: 100%;
   border-spacing: 0;
   border: 1px solid #333;
 }
-#actorTable th {
+.displayTable th {
   background-color: #ddc;
   padding: 2px 4px;
 }
-#actorTable td {
+.displayTable td {
   padding: 2px 4px;
 }
-#actorTable tr.odd td {
+.displayTable tr.odd td {
   background-color: #eed;
   color: black;
 }

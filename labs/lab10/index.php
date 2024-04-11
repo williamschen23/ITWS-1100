@@ -91,13 +91,23 @@ if ($havePost) {
          $firstNamesForDb = trim($_POST["firstNames"]);
          $lastNameForDb = trim($_POST["lastName"]);
          $dobForDb = trim($_POST["dob"]);
+         $movie = trim($_POST["movie"]);
+
+         $query = ("select * from movies where title='" . $movie . "'");
+         echo $query;
+         $result = $db->query($query);
+
+         $movieForDb = NULL;
+         if($result->num_rows != 0){
+            $movieForDb = $result->fetch_assoc()["movieid"];
+         }
 
          // Setup a prepared statement. Alternately, we could write an insert statement - but
          // *only* if we escape our data using addslashes() or (better) mysqli_real_escape_string().
-         $insQuery = "insert into actors (`lastName`,`firstName`,`dob`) values(?,?,?)";
+         $insQuery = "insert into actors (`lastName`,`firstName`,`dob`,`movies`) values(?,?,?,?)";
          $statement = $db->prepare($insQuery);
          // bind our variables to the question marks
-         $statement->bind_param("sss", $lastNameForDb, $firstNamesForDb, $dobForDb);
+         $statement->bind_param("sssi", $lastNameForDb, $firstNamesForDb, $dobForDb, $movieForDb);
          // make it so:
          $statement->execute();
 
@@ -132,6 +142,11 @@ if ($havePost) {
                                                                                     echo $dob;
                                                                                  } ?>" name="dob" id="dob" /> <em>yyyy-mm-dd</em></div>
 
+         <label class="field" for="movie">Movie (optional):</label>
+         <div class="value"><input type="text" size="60" maxlength="60" value="<?php if ($havePost && $errors != '') {
+                                                                                    echo $movie;
+                                                                                 } ?>" name="movie" id="movie" /></div>
+
          <input type="submit" value="save" id="save" name="save" />
       </div>
    </fieldset>
@@ -161,11 +176,6 @@ if ($havePost) {
          echo '</td><td>';
          echo '<img src="resources/delete.png" class="deleteActor" width="16" height="16" alt="delete actor"/>';
          echo '</td></tr>';
-         // Uncomment the following three lines to see the underlying
-         // associative array for each record.
-         // echo '<tr><td colspan="3" style="white-space: pre;">';
-         // print_r($record);
-         // echo '</td></tr>';
       }
 
       $result->free();
@@ -180,3 +190,4 @@ if ($havePost) {
 <?php include('includes/foot.inc.php');
 // footer info and closing tags
 ?>
+

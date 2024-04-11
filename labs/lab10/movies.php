@@ -22,7 +22,6 @@
   } else {
     $dbOk = true;
   }
-
   ?>
 
   <h3>Movies</h3>
@@ -59,7 +58,7 @@
         echo htmlspecialchars($record2['firstName']) . " " . htmlspecialchars($record2['lastName']);
 
         if($j < $numAssociativeR-1){
-          echo ",";
+          echo ", ";
         }
       }
       echo '</td></tr>';
@@ -68,13 +67,11 @@
     $result->free();
     $db->close();
   }
-
-
-
-
   ?>
+
   </table>
   <?php include('includes/foot.inc.php'); 
     // footer info and closing tags
   ?>
+
 
